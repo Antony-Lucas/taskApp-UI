@@ -1,1 +1,1 @@
-export const apiUrl = "https://taskapp-api-en0s.onrender.com:3000/";
+export const apiUrl = "https://taskapp-api-en0s.onrender.com/";
