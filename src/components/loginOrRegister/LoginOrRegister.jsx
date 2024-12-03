@@ -150,7 +150,7 @@ const LoginOrRegister = () => {
               {loading ? (
                 <ReactLoading
                   type="spin"
-                  color="#157bff"
+                  color="#ffffff"
                   height={20}
                   width={20}
                 />
