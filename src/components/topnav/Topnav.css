@@ -1,0 +1,152 @@
+.container-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px,
+    rgba(255, 255, 255, 0.25) 0px 1px 0px inset;
+  padding: 10px 30px;
+}
+
+.hamburguer-menu {
+  display: none;
+  background-color: #fff;
+  border: none;
+}
+
+.search-block {
+  display: flex;
+  align-items: center;
+  background-color: #f2f2f2;
+  border-radius: 6px;
+  padding: 0 5px;
+  width: 20rem;
+  height: 35px;
+}
+
+.icon-search {
+  font-size: 20px;
+  padding: 0 0 0 5px;
+  color: #757575;
+}
+
+.search-block input {
+  height: 8px;
+  margin: 0;
+}
+
+.user-initials {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  cursor: pointer;
+  width: fit-content;
+  height: 55px;
+  background-color: #fff;
+  border: none;
+}
+
+.user-initials div {
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  align-items: end;
+}
+
+.user-initials div small {
+  font-size: 0.6rem;
+  color: #757575;
+  margin-right: 12px;
+}
+
+.user-initials span:nth-child(1) {
+  margin-right: 12px;
+}
+
+.user-initials span:nth-child(2) {
+  background-color: #73b06f;
+  width: 17px;
+  height: 20px;
+  padding: 7px 10px;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.user-details-modal {
+  margin-top: 15px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-details-modal div {
+  display: flex;
+  align-items: center;
+}
+
+.user-details-modal button,
+.exclude-details-modal div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: none;
+}
+
+.user-details-modal button {
+  border-radius: 50px;
+  padding: 8px;
+}
+
+.user-date-info {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.user-date-info small {
+  color: #757575;
+}
+
+.exclude-details-modal div:nth-child(1) {
+  margin-top: 25px !important;
+}
+
+.exclude-details-modal div h4 {
+  margin: 8px 0;
+}
+
+.exclude-buttons {
+  margin-top: 45px !important;
+}
+
+.icon-style-hamburguer {
+  font-size: 30px;
+}
+
+.icon-style-menu {
+  font-size: 20px;
+  margin-right: 12px;
+}
+
+@media only screen and (max-width: 750px) {
+  .hamburguer-menu {
+    display: block;
+  }
+
+  .user-initials span:nth-child(1),
+  .user-initials small {
+    display: none;
+  }
+
+  .user-initials {
+    width: 3rem;
+  }
+
+  .search-block {
+    width: 11rem;
+  }
+}

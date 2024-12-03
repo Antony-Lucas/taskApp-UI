@@ -1,0 +1,33 @@
+.icon-default,
+.icon-delete {
+  font-size: 20px;
+}
+
+.icon-edit,
+.icon-pending,
+.icon-in-progress {
+  font-size: 21px;
+}
+
+.icon-completed {
+  font-size: 22px;
+  color: #73b06f;
+}
+
+.icon-pending {
+  color: #ff9292;
+}
+
+.icon-in-progress {
+  color: #ffb829;
+}
+
+.icon-delete {
+  color: #ef4444;
+}
+
+.icon-warn {
+  font-size: 30px;
+  margin-right: 15px;
+  color: #ffb829;
+}
